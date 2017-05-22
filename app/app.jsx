@@ -14,10 +14,6 @@ store.subscribe(() => {
   console.log('NewState', store.getState());
 });
 
-store.dispatch(actions.addTodo('Clean the Yard'));
-store.dispatch(actions.setSearchText('yard'));
-store.dispatch(actions.toggleShowCompleted());
-
 // Load foundation
 $(document).foundation();
 
